@@ -1,0 +1,13 @@
+AllCops:
+  NewCops: enable
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Metrics/MethodLength:
+  Max: 20
+# Style/RescueStandardError:
+# EnforcedStyle: never
